@@ -12,7 +12,7 @@ In this project, I will make use of Python to explore data related to bike share
 - chicago.csv : File having the data for Chicago city
 - new_york_city.csv : File having the data for New York city
 - washington.csv : File having the data for Washington city
-
+- README.md : File having the project documentation
 
 ### Credits
 Many thanks to the [geeksforgeeks](www.geeksforgeeks.org) website.
