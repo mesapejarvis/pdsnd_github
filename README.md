@@ -13,6 +13,9 @@ In this project, I will make use of Python to explore data related to bike share
 - new_york_city.csv : File having the data for New York city
 - washington.csv : File having the data for Washington city
 
+
 ### Credits
 Many thanks to the [geeksforgeeks](www.geeksforgeeks.org) website.
+
+Made use of stackoverflow
 
