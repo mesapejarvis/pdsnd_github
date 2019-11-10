@@ -82,6 +82,12 @@ def load_data(city, month, day):
 
 
 def time_stats(df):
+     """
+    Loads a dataframe(file) based on the city prints out the stats about the travels.
+
+    Args:
+        (object) df - a dataframe
+    """
     """Displays statistics on the most frequent times of travel."""
 
     print('\nCalculating The Most Frequent Times of Travel...\n')
@@ -104,6 +110,13 @@ def time_stats(df):
 
 
 def station_stats(df):
+    """
+    Loads a dataframe(file) based on the city prints out the stats about the stations.
+
+    Args:
+        (object) df - a dataframe
+    """
+
     """Displays statistics on the most popular stations and trip."""
 
     print('\nCalculating The Most Popular Stations and Trip...\n')
@@ -133,6 +146,12 @@ def station_stats(df):
 
 
 def trip_duration_stats(df):
+    """
+    Loads a dataframe(file) based on the city prints out the stats about the trip duration.
+
+    Args:
+        (object) df - a dataframe
+    """
     """Displays statistics on the total and average trip duration."""
 
     print('\nCalculating Trip Duration...\n')
@@ -153,6 +172,12 @@ def trip_duration_stats(df):
 
 
 def user_stats(df):
+    """
+    Loads a dataframe(file) based on the city prints out the stats about the user.
+
+    Args:
+        (object) df - a dataframe
+    """
     """Displays statistics on bikeshare users."""
 
     print('\nCalculating User Stats...\n')
@@ -191,7 +216,13 @@ def user_stats(df):
     print('-'*40)
 
 # added this section as per previous feedback!    
-def display_data(df):    
+def display_data(df):   
+"""
+    Loads a dataframe(file) based on the city prints out the stats about the data with 5 records.
+
+    Args:
+        (object) df - a dataframe
+    """ 
     count = 0
     user_input = input('\nDo you want to see 5 lines of raw data? Enter yes or no.\n').lower() 
     while True :
